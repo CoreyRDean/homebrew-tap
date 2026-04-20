@@ -1,28 +1,28 @@
 class YoinkNYeet < Formula
-  desc "Clipboard stack CLI — yoink pushes, yeet pops"
+  desc "Clipboard-stack CLI — yoink pushes, yeet pops"
   homepage "https://github.com/CoreyRDean/yoink-n-yeet"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/CoreyRDean/yoink-n-yeet/releases/download/v0.1.2/yoink-n-yeet_0.1.2_darwin_arm64.tar.gz"
-      sha256 "1d6983b47518546a9bfffeb7c23a036390346acf78fe7a3dc0214bc5b32bc312"
+      url "https://github.com/CoreyRDean/yoink-n-yeet/releases/download/v0.1.3/yoink-n-yeet_0.1.3_darwin_arm64.tar.gz"
+      sha256 "de79e432bf220571b8f4aa0f60208d358339db4e3a7b00f74716178b36877684"
     end
     on_intel do
-      url "https://github.com/CoreyRDean/yoink-n-yeet/releases/download/v0.1.2/yoink-n-yeet_0.1.2_darwin_amd64.tar.gz"
-      sha256 "f4f955b707271ebffc8368449b285170a8316e6812cdd1c2535f935bb49b420a"
+      url "https://github.com/CoreyRDean/yoink-n-yeet/releases/download/v0.1.3/yoink-n-yeet_0.1.3_darwin_amd64.tar.gz"
+      sha256 "0717bd7d773b3f7e32d968d83a850fc0ecbf94f5798f3bc8d89f8cca329a69fd"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/CoreyRDean/yoink-n-yeet/releases/download/v0.1.2/yoink-n-yeet_0.1.2_linux_arm64.tar.gz"
-      sha256 "c7d1e06707818f4c2a8a4deba086827c05171ecf0f57b5c10d3debd8a86a3fcb"
+      url "https://github.com/CoreyRDean/yoink-n-yeet/releases/download/v0.1.3/yoink-n-yeet_0.1.3_linux_arm64.tar.gz"
+      sha256 "c2fcff316fb50a319d847b0d73a4b06fe8636c5cc78b0edda76615f9fc36e494"
     end
     on_intel do
-      url "https://github.com/CoreyRDean/yoink-n-yeet/releases/download/v0.1.2/yoink-n-yeet_0.1.2_linux_amd64.tar.gz"
-      sha256 "f7957186885c58a92e2f6b579f1dc4bfac770c73bb7ba8ef7804e83a0d55f341"
+      url "https://github.com/CoreyRDean/yoink-n-yeet/releases/download/v0.1.3/yoink-n-yeet_0.1.3_linux_amd64.tar.gz"
+      sha256 "e72ce153e5361f542332fe8c00fdef6f697944fbfb3ec78f6d8fef0833d2a514"
     end
   end
 
